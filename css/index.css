@@ -11,6 +11,12 @@ body {
     min-height: 120px;
 }
 
+.backgroundDiv {
+    background-color: #EAEADB;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .navbar-nav > li > a{
     height: 14px;
     border-right: 1px solid #333333;
@@ -66,11 +72,7 @@ body {
     margin-right: 0%;
 }
 
-.backgroundDiv {
-    background-color: #EAEADB;
-    margin-left: 15px;
-    margin-right: 15px;
-}
+
 
 .hvr-bounce-in {
     cursor: pointer;
@@ -163,21 +165,6 @@ div.modal-content {
     background-color: #797979;
 }
 
-.modal-backdrop {
-    position: absolute;
-    width: 625px;
-    left: 24%;
-    top: 150px;
-    bottom: initial;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-.modalButton {
-    width: 80%;
-    text-align: center;
-    background-color: white;
-}
-
 @media screen and (max-width: 560px){
     .modal {
         left: 10%;
@@ -232,4 +219,19 @@ div.modal-content {
         left: 16%;
         width: 600px;
     }
+}
+
+.modal-backdrop {
+    position: absolute;
+    width: 625px;
+    left: 24%;
+    top: 150px;
+    bottom: initial;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.modalButton {
+    width: 80%;
+    text-align: center;
+    background-color: white;
 }
