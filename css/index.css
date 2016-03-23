@@ -8,13 +8,13 @@ body {
 }
 
 .navbar {
-    min-height: 120px;
+    min-height: 100px;
 }
 
 .backgroundDiv {
     background-color: #EAEADB;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .navbar-nav > li > a{
@@ -35,6 +35,13 @@ body {
     background-color: #EAEADB; 
 }
 
+.container {
+  padding-right: 0%;
+  padding-left: 0%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .navbar-nav li .dropdown-menu {
     background-color: #797979;
     text-align: center;
@@ -51,7 +58,7 @@ body {
     margin-top: 0px;
 }
 
-.dropdown-menu li a:hover{
+.dpdown-menu li a:hover{
     color: #333333;
     background-color: #DBDBDB;
 }
@@ -62,7 +69,6 @@ body {
  }
  
 .footer {
-    /*width: 90%;*/
     margin-top: 25px;
     color: white ;
     bottom: 0;
@@ -71,8 +77,6 @@ body {
     margin-left: 0%;
     margin-right: 0%;
 }
-
-
 
 .hvr-bounce-in {
     cursor: pointer;
